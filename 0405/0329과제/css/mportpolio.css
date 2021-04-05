@@ -1,0 +1,211 @@
+﻿/* 스타일 초기화 */
+* {
+	box-sizing: border-box;
+	width: device-with; 
+	padding: 0px ; 
+}
+
+header, body, footer {
+	font-size: 14px; 
+	font-family: NanumSquareRound,나눔고딕,굴림,돋음,'Times New Roman',serif; 
+	width: 100%;
+	
+}
+
+header, footer {
+	text-align : center ;
+	 
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.714286;
+    color: #313338;
+    text-align: left;
+    background-color: #f1f3f6;
+}
+
+footer {
+	bottom: 0px; 
+}
+
+/*내가 짜는 코드임*/
+
+body {
+    margin: 0;
+    font-family: "Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.714286;
+    color: #313338;
+    text-align: left;
+    background-color: #f1f3f6;
+}
+header {
+	width: 100%;
+	height: 60px;
+	margin-left: 6px;
+	padding: 18px, auto;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.logo{
+	display: flex;
+	justify-self: start;
+}
+
+
+
+/* 공통 스타일 */
+
+
+h1, h2, h3 { 
+	width: 0px;
+	height: 0px;
+	font-size: 0;
+	line-height: 0;
+	position: absolute; 
+	overflow: hidden;
+}
+
+img {
+	display: block;
+}
+
+nav > span > a {
+	font-style: bold; 
+	margin: 0 ; 
+	padding: 3px; 
+	border: 2px solid black; 
+	float: right; 
+	text-decoration: none; 
+	background: black; 
+	color: white; 
+}
+
+nav > span > a:hover {
+	background: #ff00ff; 
+	color: white; 
+}
+
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float: right; }
+	footer { clear: both; }
+}
+
+.content  {
+	clear: both;
+	background-color: #FAFBFF; 
+}
+
+.section1 ul li { 
+	list-style-position: inside;
+}
+
+.portal { 
+	width: 63px; 
+	height: 58px; 
+}
+
+/* mintro.html 적용 스타일*/
+#stu-pic { 
+	display: flex;
+	width: 6em; 
+	height: 8em;  
+}
+
+/* minfo.html 적용 스타일 */
+#year-table { 
+	table-layout: auto; 
+	width: 80%; 
+	border-collapse: seperate; 
+}
+
+#year-table thead { 
+	background: #E4F2D0; 
+}
+
+#logo { 
+	position: fixed; 
+	top:130px; 
+	left: 70px; 
+	opacity: 0.3; 
+} 
+
+/* mstudy.html 적용 스타일 */
+video { 
+	margin: 5px; 
+	width: 400px; 
+	height: 400px; 
+}
+
+/* mcareer.html 적용 스타일 */
+.semi-pic { 
+	width: 4em; 
+	height: 3em;  
+}
+
+#pic-container { 
+	overflow: hidden; 
+}
+
+/*#pic-container:hover { height: 220px; }*/
+#pic1:hover { 
+	-webkit-transform: translate(100px,50px) scale(7,7);
+	transform: scale(0.5); 
+}
+
+#pic2:hover { 
+	-webkit-transform: translate(100px,50px) scale(7,7) ;
+	transform: scale(0.5); 
+}
+
+.skill img{
+	width: 48px;
+	height: 48px;
+}
+
+/* education 프로세스바 */
+ul#progress {
+	list-style: none;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 46px;
+}
+
+ul#progress li {
+	float: left;
+	position: relative;
+	width: 6px;
+	height: 6px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	margin-left: 10px;
+	border-left: 1px solid #E5E5E5;
+	border-top:1px solid #E5E5E5;
+	border-right:1px solid #E5E5E5; 
+	border-bottom:1px solid #E5E5E5;
+	background:#E5E5E5;
+}
+	
+ul#progress li:first-child {
+	 margin-left:0; 
+}
